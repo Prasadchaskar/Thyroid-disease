@@ -2,6 +2,7 @@
 
 ![Hnet com-image (1)](https://user-images.githubusercontent.com/72083319/137758361-4809e9a7-a8a9-4f5f-a38e-dbfc8df30d00.jpg)
 
+```
 Thyroid disease (TD) is one of the most progressive endocrine disorders in the human population today. 
 Prediction of the endocrine disease is a critical task in the field of clinical data analysis. 
 Machine Learning (ML) has shown effective results in the decision making and predictions from the enormous 
@@ -10,4 +11,31 @@ have given only a glimpse using machine learning algorithms. In this project we 
 models based on the primary dataset collected from 3772  patients. 
 In these models, we have compared top three ML algorithms (Support Vector Machine, Logistic Regression, 
 Random Forest) for effective classification.
+```
+### Required Libraries :
+1. pandas
+2. numpy
+3. matplotlib
+4. sklearn
+5. seaborn
+
+## Problem Statement :
+- To predict whether a person has a thyroid disease or not based on the various biological and physical parameters of the body.
+- To make a model having high accuracy and precision and can predict the results with greater confidence.
+### Data Description:
+The dataset contains 3772 training instances and 3 classes.
+
+https://archive.ics.uci.edu/ml/datasets/thyroid+disease
+![data](https://user-images.githubusercontent.com/72083319/137762789-289efb6d-b56b-47da-96a3-1eeced05cd0a.PNG)
+
+### Exploratory Data Analysis :
+- age: The person's age in years
+- sex: The person's sex
+- TSH (Thyroid-stimulating hormone):  blood test that measures this hormone.
+- T3:Triiodothyronine is a thyroid hormone.
+- thyroid surgery: done surgery or not.
+- TT4: the main form of thyroid hormone made by the thyroid gland.
+- T4U: normal subjects.
+- FTI: Free thyroxine
+
 
