@@ -1,4 +1,4 @@
-# Thyroid-disease
+# Thyroid Disease
 
 ![Hnet com-image (1)](https://user-images.githubusercontent.com/72083319/137758361-4809e9a7-a8a9-4f5f-a38e-dbfc8df30d00.jpg)
 
