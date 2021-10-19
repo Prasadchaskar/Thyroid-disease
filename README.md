@@ -37,5 +37,18 @@ https://archive.ics.uci.edu/ml/datasets/thyroid+disease
 - TT4: the main form of thyroid hormone made by the thyroid gland.
 - T4U: normal subjects.
 - FTI: Free thyroxine
+### Inputs :
+1. age
+2. sex
+3. thyroid surgery
+4. TSH
+5. T3
+6. TT4
+7. T4U
+8. FTI
+### Classification Report :
+![classi](https://user-images.githubusercontent.com/72083319/137848618-a31a53f0-87c3-4100-bc12-fc73fddba63f.PNG)
 
+Everything is explained in the notebook.
+Thank You
 
