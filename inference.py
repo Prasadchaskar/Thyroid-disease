@@ -20,24 +20,3 @@ def predict(df):
     output = [class_names[class_predicted] for class_predicted in predictions]
     return output
 
-age = 40
-sex = 'F'
-th_surgery = 'f'
-tsh = 1.30
-t3=2.500
-tt4 = 125
-t4u = 1.140
-fti = 109
-
-df = pd.DataFrame({ 
-    'age':[age],
-    'sex':[sex], 
-    'thyroid surgery':[th_surgery], 
-    'TSH':[tsh], 
-    'T3':[t3],
-    'TT4':[tt4],
-    'T4U':[t4u], 
-    'FTI':[fti]
-
-})
-print(predict(df))
